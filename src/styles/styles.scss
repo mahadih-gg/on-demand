@@ -1,0 +1,24 @@
+// ========== Navbar Style =============== //
+
+.navbar {
+  @apply container px-0 py-5 flex justify-between items-center;
+
+  ul {
+    @apply flex justify-end items-center gap-8;
+  }
+}
+
+
+// ========== Hero Style =============== //
+
+@font-face {
+  font-family: 'BetterBrush';
+  src: url("../assets/fonts/BetterBrush-rgYnx.ttf"),
+}
+
+.heading-hero {
+  font-family: "BetterBrush";
+  @apply text-dark text-4xl xl:text-6xl py-10;
+
+  line-height: 2;
+}

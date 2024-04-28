@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+// -------------------------- //
+.flex-start {
+  @apply flex justify-start items-center;
+}
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+// -------------------------- //
+.heading-section {
+  @apply text-5xl p-heading;
+}
